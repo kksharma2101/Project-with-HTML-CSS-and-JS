@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  /* max-width: 1440px; */
+  background-color: #f0f4f5;
+  overflow: hidden;
+  margin: auto;
+}
+.main {
+  margin: 10px 100px;
+  background-color: #dbf1f5;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+nav img {
+  width: 100px;
+}
+nav ul {
+  gap: 40px;
+  display: flex;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+main {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+form h1 {
+    text-align: center;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+}
+form div label {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+form div input {
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+}
+form div textarea {
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+button {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+    font-size: 22px;
+   background-color: #20BC7E;
+   cursor: pointer;
+   border: transparent;
+   color: #f0f4f5;
+   font-weight: 700;
+}

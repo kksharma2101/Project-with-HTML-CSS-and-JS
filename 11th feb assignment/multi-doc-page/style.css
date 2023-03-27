@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-color: #c0f4f4;
+  text-align: center;
+  margin: 15px 50px 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+nav img {
+  width: 100px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+}
+nav ul li a:hover {
+  color: blue;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 85vh;
+}
+.stethoscope {
+  position: absolute;
+  width: 350px;
+}
+/* write a left section css code */
+.left-section {
+  width: 50vw;
+}
+.topangle {
+  margin-left: -350px;
+  width: 20px;
+}
+.left-section h1 {
+  /* width: 20vw; */
+  margin: 0px 0px 10px 140px;
+  font-size: 30px;
+}
+.left-section p {
+  margin-left: 137px;
+  line-height: 30px;
+  font-size: 18px;
+}
+.bottomAngle {
+  margin-left: 550px;
+  width: 20px;
+}
+.btn {
+  background-color: #20bc7e;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  width: 15rem;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: -50px;
+  border: none;
+}
+.btn:hover {
+  color: #0000ff;
+}
+.mouse {
+  margin-left: 600px;
+  width: 20px;
+}
+
+/* write a right-section css code*/
+.greenBox {
+  position: absolute;
+  width: 280px;
+  top: 240px;
+  right: 105px;
+}
+.yellowBox {
+  position: absolute;
+  width: 200px;
+  right: 90px;
+  top: 300px;
+}
+.doctor {
+  width: 300px;
+  position: relative;
+}
